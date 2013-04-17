@@ -5,7 +5,7 @@
 
 Released under the GNU General Public License
 
-Inhalt des Ordners copy_this bitte analog zum Shoproot kopieren. 
+Inhalt des Ordners freeAutoSuggest-master bitte analog zum Shoproot kopieren. 
 
 Modul im Adminbereich unter Erweiterungen / Module aktivieren.
 
