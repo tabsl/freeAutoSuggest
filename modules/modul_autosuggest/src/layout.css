@@ -1,0 +1,71 @@
+/* CUSTOMIZE AUTOSUGGEST STYLE    */
+#results{background: #424242; opacity:0.9; border-radius:2px 2px 7px 7px;max-width: 800px;min-width: 500px; position:absolute; top:22px;z-index:1500; right: 5px; padding:0 15px 0 15px; display:none;}#results table {width: 100%;}
+#results th { font-weight:bold; text-align:center;}
+#results tr {border-top: 1px solid #f2f2f2;border-bottom: 1px solid #f2f2f2;}
+#results tr:first-child, #results tr:last-child{ border: none; }
+#results tr:hover:first-child, #results tr:hover:last-child{ background-color: none; }
+#results td.image {width:30px; height: 30px; text-align: center; padding: 5px; padding-top: 5px; }
+#results td.price {color: #fff; width:100px; padding-bottom:5px; margin:0; text-align: center;}
+#results td.pages { padding-top:15px;padding-bottom:5px;}
+#results td a{display:block; text-decoration:none; color:#fff;}
+#results td a:hover{}
+#results td a small{display:block; text-decoration:none; color:#fff; font-weight:normal;}
+
+#results ul{ padding:0px; margin:3px; }
+
+#results ul li {
+
+	-moz-border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0 0 #6E6E6E;
+    color: #000;
+    float: left;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 2px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+	list-style-type:none;
+    cursor:pointer;
+	}
+#results ul li.active {
+
+    background: none repeat scroll 0 0 #389cb4;
+	}
+
+#results ul li:hover{background:#389cb4;}
+#results li:hover{ color: #000; cursor: pointer; }
+#results td.title a {
+padding: 23px 8px 5px 0px;
+margin-left: 7px;
+}
+
+#results {margin-left:10px;
+}
+#results td.pages span {
+color: #fff;
+float: left;
+}
+
+#wait{
+	position:absolute;
+	width:100px;
+	left:110px;
+	top:1px;
+	display:none;
+	z-index:11111;
+}
+.resall:hover {
+background-color: #389cb4;
+}
+
+#results td.cats a {
+padding: 3px 8px 5px 0px;
+margin-left: 7px;
+}
+
+div.searchBox input.searchSubmit {
+display:none !important;
+}

@@ -1,19 +1,13 @@
-freeAutoSuggest
-===============
+// -------------------------------
+// MODUL Free Autosuggest 3.0 FOR OXID 4.6 & 4.7x AZURE (c) 2013 PREMIERELINE.DE
+// -------------------------------
 
-Implement an easy autosuggest function.
-
-Originally posted http://forum.oxid-esales.com/showthread.php?t=10516&page=8#post105508 by @rubbercut
-
-----------------------------
-
-Free Autosuggest 1.4 (jquery-Slide / Pagination (Blätterfunktion))
-
-AUTOSUGGEST FOR OXID
 
 Released under the GNU General Public License
 
-Dateien der Ordner bitte analog zum Shoproot einbauen/kopieren. 
+Inhalt des Ordners copy_this bitte analog zum Shoproot kopieren. 
+
+Modul im Adminbereich unter Erweiterungen / Module aktivieren.
 
 soundex_match_function.sql ausführen (phpmyadmin).
 
@@ -26,3 +20,7 @@ NICHT VERGESSEN:
 
 BEI ÄNDERUNGEN AN DER DATENBANK VORHER STETS EIN BACKUP MACHEN !!! 
 
+
+
+Changelog:
+17.4.2013 - Josef Andreas Puckl (info@ecomstyle.de) - Module created + New Design
